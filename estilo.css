@@ -1,0 +1,218 @@
+html, body, .capa{
+    height: 100%;
+}
+body{
+    background: url('imagens/capa.png'), 
+                url('imagens/ruido.png'),
+                linear-gradient(50deg, #e65758, #771d32) no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+/*Barra de navegação*/
+.img-logo{
+    height: 40px;
+    width: 132px;
+    display: block;
+    background: url('imagens/Logo-CineSpace.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background: #212b38;
+    border: none;
+}
+
+.navbar-brand{
+    padding: 5px 15px;
+}
+
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a, #rodape .nav a{
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, #rodape .nav a:hover{
+    color: #c72c41;
+    background: none;
+}
+
+/*Imagem de Capa*/
+.capa{
+    display: table;
+    width: 100%;
+}
+
+.texto-capa{
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+/*btn*/
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo{
+    background: #212b38;
+}
+.btn-roxo:hover{
+    background: #1c2430;
+    color: white;
+}
+.btn-branco{
+    border: 2px solid white;
+}
+.btn-branco:hover{
+    color: black;
+    background: white;
+}
+/*Seção servicos*/
+#filmes{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#formulario{
+    background: white;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+/*Rodapé*/
+footer{
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+.item-rede-social{
+    float: right;
+}
+
+/*Tipografia*/
+
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -0.05px;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+h3{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#rodape h4{
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#filmes h2, #filmes h3{
+    color:#212b38;
+}
+
+#recursos h3{
+    color: #9bf0e1;
+}
+
+.nomeFilme{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#valores{
+    background: white;
+}
+
+#valores h3{
+    padding-top: 60px;
+}
+
+#valores h4{
+    text-transform: uppercase;
+    padding: 5px 0px 5px 0px;
+}
+
+#valores a, #compra a{
+    color: #c72c41;
+}
+
+.btn-center{
+    text-align: center;
+}
+.btn-compra{
+    background: #212b38;
+}
+
+.btn-compra:hover{
+    background: #c72c41;
+}
+
+.linha{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#compra{
+    margin-top: 60px;
+    background: white;
+}
+
+#compra img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bordinha{
+    border: red solid 1px;
+}
+
+.horario{
+    width: 80px;
+    height: 50;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background: #212b38;
+}
+
+.horario:hover{
+    background: #c72c41;
+}
+
+#compra .horario>p{
+    padding: 10px;
+}
+
+
+.selectDay{
+    margin-top: 20px;
+}
