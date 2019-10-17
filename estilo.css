@@ -216,3 +216,11 @@ h3{
 .selectDay{
     margin-top: 20px;
 }
+
+#compra a{
+    color: white;
+}
+#compra a:hover{
+    color: white;
+    text-decoration: none;
+}
