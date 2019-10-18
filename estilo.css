@@ -217,10 +217,10 @@ h3{
     margin-top: 20px;
 }
 
-#compra a{
+#compra p>a{
     color: white;
 }
-#compra a:hover{
+#compra p>a:hover{
     color: white;
     text-decoration: none;
 }
