@@ -164,7 +164,7 @@ h3{
     padding: 5px 0px 5px 0px;
 }
 
-#valores a, #compra a{
+#valores a, #compra a, #sessao a{
     color: #c72c41;
 }
 
@@ -184,7 +184,7 @@ h3{
     margin-bottom: 20px;
 }
 
-#compra{
+#compra, #sessao{
     margin-top: 60px;
     background: white;
 }
